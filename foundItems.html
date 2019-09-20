@@ -1,18 +1,10 @@
-<table width="80%" border="1">
-    <tr>
-    <th colspan="4">Menu Choice<label></th>
-    </tr>
-    <tr>
-    <td>Name</td>
-    <td>Short Name</td>
-    <td>Description</td>
-    <td>Remove</td>
-    </tr>
+<table width="80%" border="0">
+
        <tr ng-repeat="item in menu.foundItems">
         <td>{{ item.name }}</td>
         <td>{{ item.short_name }}</td>
         <td>{{item.description}}</td>
         <td> <input type="button" ng-click="menu.onRemove({index: $index})" value="Don't want this one!"></td>
         </tr>
-    </table>
+    </table> <br>
 <div class="alert alert-danger" role="alert" ng-show="menu.onEmpty">{{menu.onEmpty}}</div>
