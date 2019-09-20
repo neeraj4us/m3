@@ -1,15 +1,15 @@
+
 h1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 input[type="text"] {
-    width: 200px;
-    float: left;
+  width: 300px;
+  float: center;
+  margin-left: 36%;
 }
-
 .narrow-button {
-    float: left;
-    margin-left: 10px;
+  float: center;
+  margin-left: 41%
 }
 
 .search {
